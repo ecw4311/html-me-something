@@ -1,0 +1,145 @@
+
+body, html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+background-image: url("wordcloud.png");
+
+/* Set a specific height */
+height: 25%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+
+
+/* Home Page Columns */
+
+
+.first-column {
+  width: 50%;
+  padding: 10px 10px 10px 10px;
+  float: left;
+}
+
+.second-column {
+  width: 45%;
+  padding: 10px 10px 10px 10px;
+  float: right;
+}
+
+#headshot {
+  float: right;
+}
+
+/*tabs
+
+/* Style the tab */
+
+.tab {
+  overflow: hidden;
+  border: 1px solid inherent;
+  background-color:corn;
+}
+
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+ font-size: 20px;
+
+}
+
+.#name {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+ font-size: 32px;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+#hometab {
+  background-color: inherit;
+  float: right;
+  border: black;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+ font-size: 20px;
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:inherent;
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+}
+
+#Home {
+  display: inherit;
+}
+
+
+body{
+background-color: whitesmoke;
+margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+body{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+h1{
+  font-size: 36px;
+}
+
+
+
+.aligned-class{
+  text-align: center
+}
+
+.link {
+  color:black;
+  text-decoration: none} /* CSS link color (red) */
+.link:hover { color:purple} /* CSS link hover (green) */
+
+
+/* Contact image formatting */
+
+.contact{
+  align-items:center;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
